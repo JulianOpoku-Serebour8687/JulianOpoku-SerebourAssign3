@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8DADA"
+    tools:context=".OpokuFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/julLayout2"
+        android:layout_width="403dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#ECEAD8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/julbutton2"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#E63A3A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/julbutton3"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.565"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/julbutton4"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#FFEB3B"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/julbutton5"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#5ECC63"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/julbutton6"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#F1ADC4"
+            android:text="@string/eraser"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/julbtt1"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#171616"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/button6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/jultextView3"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="@font/antic_slab"
+        android:text="@string/full_name"
+        android:textColor="#1738F3"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="348dp"
+        android:layout_height="525dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/view_display"
+            android:layout_width="338dp"
+            android:layout_height="502dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

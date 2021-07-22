@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/julframeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".JulianFragment">
+
+    <TextView
+        android:id="@+id/jultitle"
+        android:layout_width="269dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
+        android:fontFamily="cursive"
+        android:text="@string/first_frag_title"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/julelement"
+        android:layout_width="137dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="436dp"
+        android:src="@drawable/firebending_emblem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <DatePicker
+        android:id="@+id/juldatepick"
+        android:layout_width="294dp"
+        android:layout_height="346dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/julonto"
+        android:layout_width="374dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#A34E4E"
+        android:fontFamily="cursive"
+        android:text="@string/next_page_button"
+        android:textColor="#171616"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
